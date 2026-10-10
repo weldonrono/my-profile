@@ -1,3 +1,7 @@
+import kilimoImage from "../assets/images/project_ecommerce_kilimo_1791281787370.jpg";
+import hospitalImage from "../assets/images/project_management_hospital_1791281800681.jpg";
+import quickdukaImage from "../assets/images/project_ecommerce_quickduka_1791281823401.jpg";
+import schoolImage from "../assets/images/project_management_school_1791281811812.jpg";
 export interface TechnicalCaseStudy {
   id: string;
   title: string;
@@ -278,7 +282,7 @@ export const FEATURED_CASE_STUDIES: TechnicalCaseStudy[] = [
     systemType: "Distributed E-Commerce & Financial Gateway",
     role: "Full-Stack System Architect & Developer",
     period: "2024 – 2025",
-    image: "/src/assets/images/project_ecommerce_kilimo_1791281787370.jpg",
+    image: kilimoImage,
     repoUrl: "https://github.com/weldonrono/kilimofresh-ecommerce",
     architectureSummary: "Next.js 14 App Router frontend backed by a Node.js/Express service, PostgreSQL transaction pool, Redis distributed lock manager, and asynchronous BullMQ notification queues.",
     techStack: ["Next.js 14", "TypeScript", "Node.js", "PostgreSQL", "Redis", "BullMQ", "Safaricom Daraja API", "Tailwind CSS"],
@@ -317,7 +321,7 @@ export const FEATURED_CASE_STUDIES: TechnicalCaseStudy[] = [
     systemType: "Enterprise Healthcare Management System",
     role: "Lead Software Engineer",
     period: "2023 – 2024",
-    image: "/src/assets/images/project_management_hospital_1791281800681.jpg",
+    image: hospitalImage,
     repoUrl: "https://github.com/weldonrono/apexcare-clinical-erp",
     architectureSummary: "React frontend with WebSocket real-time event subscriptions, Node.js REST API with hierarchical Role-Based Access Control (RBAC), PostgreSQL relational data store, and AWS S3 encrypted file storage.",
     techStack: ["React.js", "Node.js", "Express", "PostgreSQL", "Socket.io", "AWS S3", "Redis", "TypeScript"],
@@ -356,7 +360,7 @@ export const FEATURED_CASE_STUDIES: TechnicalCaseStudy[] = [
     systemType: "Progressive Web Application (PWA) & Cloud Retail POS",
     role: "Full-Stack Software Developer",
     period: "2024",
-    image: "/src/assets/images/project_ecommerce_quickduka_1791281823401.jpg",
+    image: quickdukaImage,
     repoUrl: "https://github.com/weldonrono/quickduka-offline-pos",
     architectureSummary: "Offline-first React PWA with Service Worker caching, local browser IndexedDB transaction journal, WebSocket live till sync, and PostgreSQL multi-branch inventory database.",
     techStack: ["React PWA", "TypeScript", "IndexedDB", "Service Workers", "Node.js", "PostgreSQL", "WebSockets"],
@@ -395,7 +399,7 @@ export const FEATURED_CASE_STUDIES: TechnicalCaseStudy[] = [
     systemType: "Cloud Enterprise Resource Planning (ERP)",
     role: "Systems Architect & Developer",
     period: "2023 – 2024",
-    image: "/src/assets/images/project_management_school_1791281811812.jpg",
+    image: schoolImage,
     repoUrl: "https://github.com/weldonrono/eduvantage-cloud-erp",
     architectureSummary: "Next.js multi-tenant portal, Node.js backend with automated Safaricom Paybill C2B validation hooks, PostgreSQL ledger, and Africa's Talking SMS dispatcher.",
     techStack: ["Next.js", "TypeScript", "Node.js", "PostgreSQL", "Safaricom Daraja", "Africa's Talking SMS"],
@@ -434,7 +438,7 @@ export const FEATURED_CASE_STUDIES: TechnicalCaseStudy[] = [
     systemType: "AI-Powered Computer Vision & Agronomic Analytics",
     role: "Full-Stack AI Engineer",
     period: "2024 – 2025",
-    image: "/src/assets/images/project_ecommerce_kilimo_1791281787370.jpg",
+    image:kilimoImage,
     repoUrl: "https://github.com/weldonrono/finsight-ai-agronomics",
     architectureSummary: "Next.js 14 frontend integrating Google Gemini 2.5 Flash API with structured JSON schema outputs, Node.js proxy layer, PostgreSQL vector metadata store, and AWS S3 image storage.",
     techStack: ["Next.js 14", "TypeScript", "Google GenAI SDK", "Node.js", "PostgreSQL", "AWS S3", "Tailwind CSS"],

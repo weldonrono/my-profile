@@ -1,3 +1,4 @@
+import portrait from "../assets/images/weldon_rono_portrait_1791281777719.jpg";
 import React from 'react';
 import { ArrowDown, Github, Linkedin, FileText, Mail, Terminal, Shield, CheckCircle2, Cpu, ExternalLink } from 'lucide-react';
 import { DEVELOPER_PROFILE } from '../data/portfolioData';
@@ -104,7 +105,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenResume }) => {
                 {/* Visual Image Container with resilient fallback */}
                 <div className="relative aspect-[4/3] sm:aspect-[1/1] w-full bg-slate-900 overflow-hidden group">
                   <img
-                    src="/src/assets/images/weldon_rono_portrait_1791281777719.jpg"
+                    src={portrait}
                     alt="Weldon Rono - Full-Stack Software Engineer"
                     referrerPolicy="no-referrer"
                     className="w-full h-full object-cover object-top filter contrast-[1.03] transition-transform duration-500 group-hover:scale-102"
